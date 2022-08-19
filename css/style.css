@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media (max-width: 450px) {
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: skyblue;
+        padding: 5px 3px;
+    }
+
+    .fa-bars {
+        font-size: 25px;
+        cursor: pointer;
+        color: rgba(57, 4, 65, 0.808);
+    }
+
+    ul{
+        position: absolute;
+        width: 100%;
+        top: 5%;
+        left: 0%;
+        background-color: skyblue;
+        text-align: center;
+        border-top: 1px solid rgb(8, 109, 149);
+        transition: all 0.5s ease;
+    }
+
+    .show {
+        left: -100%;
+    }
+
+    ul li {
+        list-style: none;
+        margin: 25px;
+        font-weight: bold;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: linear-gradient(to bottom, rgba(57, 4, 65, 0.408), rgba(57, 4, 65, 0.408)), url(/img/pexels-jopwell-2422292.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .phone-shape {
+        background-color: transparent;
+        width: 270px;
+        height: 450px;
+        margin: auto;
+        border-radius: 15px;
+        border: 10px solid skyblue;
+        box-shadow: 1px 1px 3px 3px skyblue;
+        display: flex;
+    }
+
+    .below {
+        background-color: rgba(4, 23, 65, 0.677);
+        width: 220px;
+        height: 400px;
+        align-self: flex-end;
+        border-bottom: none;
+        cursor: pointer;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button {
+        padding: 10px;
+        border-radius: 5px;
+        background: skyblue;
+        color: rgba(57, 4, 65, 0.808);
+        box-shadow: 1px 1px 10px 10px rgba(135, 207, 235, 0.45);
+        border: 0;
+        transition: all 1s ease;
+    }
+
+    button:active {
+        padding: 30px;
+    }
+    
+}
