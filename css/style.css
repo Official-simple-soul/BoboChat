@@ -31,9 +31,10 @@
         top: 5%;
         left: 0%;
         bottom: 0;
-        background-color: skyblue;
+        background: linear-gradient(to bottom, rgba(135, 207, 235, 0.755), rgba(135, 207, 235, 0.755)), url(../img/pexels-jopwell-2422292.jpg);
         text-align: center;
-        border-top: 1px solid rgb(8, 109, 149);
+        background-position: center;
+        background-size: cover;
         transition: all 0.5s ease;
     }
 
@@ -43,15 +44,16 @@
 
     ul li {
         list-style: none;
-        margin: 25px;
+        margin: 45px 0;
         font-weight: bold;
+        color: rgba(57, 4, 65, 0.808);
     }
 
     main {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 90vh;
+        height: 95vh;
         width: 100%;
         background: linear-gradient(to bottom, rgba(57, 4, 65, 0.408), rgba(57, 4, 65, 0.408)), url(../img/pexels-jopwell-2422292.jpg);
         background-position: center;
