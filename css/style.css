@@ -66,8 +66,8 @@
         height: 450px;
         margin: auto;
         border-radius: 15px;
-        border: 7px solid skyblue;
-        box-shadow: 1px 1px 3px 3px skyblue;
+        border: 2px solid skyblue;
+        box-shadow: 1px 1px 5px 5px rgba(135, 207, 235, 0.309);
         display: flex;
     }
 
@@ -89,7 +89,7 @@
         border-radius: 5px;
         background: skyblue;
         color: rgba(57, 4, 65, 0.808);
-        box-shadow: 1px 1px 10px 10px rgba(135, 207, 235, 0.45);
+        box-shadow: 1px 1px 5px 5px rgba(135, 207, 235, 0.25);
         border: 0;
         transition: all 1s ease;
     }
