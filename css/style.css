@@ -116,7 +116,7 @@
     .phone-shape {
         background-color: transparent;
         width: 80%;
-        padding: 10% 0;
+        padding: 5% 0;
         margin: auto;
         border-radius: 15px;
         border: 2px solid skyblue;
@@ -128,7 +128,7 @@
     .below {
         background-color: rgba(4, 23, 65, 0.477);
         width: 220px;
-        height: 400px;
+        /* height: 400px; */
         align-self: flex-end;
         border-bottom: none;
         cursor: pointer;
@@ -136,6 +136,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 15px 0;
     }
 
     button {
